@@ -1,9 +1,15 @@
-import SampleComponent from './components/SampleComponent';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import QuoteList from './components/QuoteList';
 
 function App() {
   return (
     <div className="App">
-      <SampleComponent />
+      <Header />
+      <main>
+        <QuoteList />
+      </main>
+      <Footer />
     </div>
   );
 }

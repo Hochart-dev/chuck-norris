@@ -1,0 +1,14 @@
+.Header {
+  h1 {
+    color:red;
+  }
+
+  ul {
+    list-style-type: none;
+    display:flex;
+
+    >* {
+      margin: 5px;
+    }
+  }
+}
